@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hiking Trails</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    body {
+      background-image: url('https://source.unsplash.com/random/1920x1080/?hiking');
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">Hiking Adventures</a>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="trails.html">Hiking Trails</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Trail List -->
+  <div class="container">
+    <h2>Hiking Trails</h2>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card">
+          <img src="https://source.unsplash.com/random/300x200/?hiking" class="card-img-top" alt="Trail Image">
+          <div class="card-body">
+            <h5 class="card-title">Appalachian Trail</h5>
+            <p class="card-text">
+              <span class="badge badge-danger">Difficulty: Strenuous</span>
+            </p>
+            <p class="card-text">Experience the iconic Appalachian Trail, a challenging long-distance hike spanning multiple states and offering breathtaking views of the Appalachian Mountains.</p>
+            <p class="card-text"><strong>Distance:</strong> 2,190 miles</p>
+            <p class="card-text"><strong>Elevation Gain:</strong> Varies</p>
+            <a href="#" class="btn btn-primary">Learn More</a>
+          </div>
+        </div>
+      </div>
+      <!-- Add more trail cards here -->
+    </div>
+  </div>
+
+  <!-- Trail Information Table -->
+  <div class="container">
+    <h2>Trail Information</h2>
+    <table class="table table-striped table-dark">
+      <thead>
+        <tr>
+          <th>Trail Name</th>
+          <th>Distance</th>
+          <th>Elevation Gain</th>
+          <th>Approximate Time</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Appalachian Trail</td>
+          <td>2,190 miles</td>
+          <td>Varies</td>
+          <td>5-7 months</td>
+        </tr>
+        <!-- Add more rows here -->
+      </tbody>
+    </table>
+  </div>
+
+  <!-- Newsletter Signup -->
+  <div class="container">
+    <h2>Subscribe to our Newsletter</h2>
+    <form>
+      <div class="form-group">
+        <label for="email">Email address</label>
+        <input type="email" class="form-control" id="email" placeholder="Enter email">
+      </div>
+      <button type="submit" class="btn btn-primary">Subscribe</button>
+    </form>
+  </div>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white py-3">
+    <div class="container">
+      <p>&copy; 2023 Hiking Adventures</p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

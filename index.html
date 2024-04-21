@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hiking Adventures</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    .jumbotron {
+      background-image: url('https://source.unsplash.com/random/1920x1080/?hiking');
+      background-size: cover;
+      background-position: center;
+      color: white;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">Hiking Adventures</a>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="trails.html">Hiking Trails</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Jumbotron -->
+  <div class="jumbotron jumbotron-fluid">
+    <div class="container">
+      <h1 class="display-4">Welcome to Hiking Adventures</h1>
+      <p class="lead">Explore the great outdoors with us!</p>
+    </div>
+  </div>
+
+  <!-- Featured Trails -->
+  <div class="container">
+    <h2>Featured Hiking Trails</h2>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card">
+          <img src="https://source.unsplash.com/random/300x200/?hiking" class="card-img-top" alt="Trail Image">
+          <div class="card-body">
+            <h5 class="card-title">Glacier National Park Trail</h5>
+            <p class="card-text">Experience the breathtaking beauty of Glacier National Park with this challenging yet rewarding hike through pristine wilderness and stunning mountain landscapes.</p>
+            <p class="card-text"><strong>Distance:</strong> 12 miles (round trip)</p>
+            <p class="card-text"><strong>Elevation Gain:</strong> 3,500 feet</p>
+            <p class="card-text"><strong>Difficulty:</strong> Strenuous</p>
+            <a href="#" class="btn btn-primary">Learn More</a>
+          </div>
+        </div>
+      </div>
+      <!-- Add more trail cards here -->
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white py-3">
+    <div class="container">
+      <p>&copy; 2023 Hiking Adventures</p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
